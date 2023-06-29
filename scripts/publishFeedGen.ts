@@ -17,11 +17,11 @@ const run = async () => {
   // A short name for the record that will show in urls
   // Lowercase with no spaces.
   // Ex: whats-hot
-  const recordName = 'bloody-feed-of-horror'
+  const recordName = 'the-horror'
 
   // A display name for your feed
   // Ex: What's Hot
-  const displayName = 'The Bloody Feed of Horror'
+  const displayName = 'Bloody Feed of Horror'
 
   // (Optional) A description of your feed
   // Ex: Top trending content from the whole network
@@ -29,7 +29,7 @@ const run = async () => {
 
   // (Optional) The path to an image to be used as your feed's avatar
   // Ex: ~/path/to/avatar.jpeg
-  const avatar: string = '~/images/jason-mask.png'
+  const avatar: string = '/Users/arkham/Documents/web/feed-generator/images/jason-mask.png'
 
   // -------------------------------------
   // NO NEED TO TOUCH ANYTHING BELOW HERE
