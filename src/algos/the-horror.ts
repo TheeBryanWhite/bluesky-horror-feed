@@ -3,10 +3,10 @@ import { QueryParams } from '../lexicon/types/app/bsky/feed/getFeedSkeleton'
 import { AppContext } from '../config'
 
 // max 15 chars
-export const shortname = 'whats-alf'
+export const shortname = 'the-horror'
 
 export const handler = async (ctx: AppContext, params: QueryParams) => {
-  let builder = ctx.db
+    let builder = ctx.db
     .selectFrom('post')
     .selectAll()
     .orderBy('indexedAt', 'desc')

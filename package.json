@@ -1,10 +1,10 @@
 {
-  "name": "feed-generator",
+  "name": "bluesky-horror-feed",
   "version": "1.0.0",
-  "description": "atproto feed generator starter kit",
+  "description": "Horror content feed for Bluesky users",
   "main": "index.js",
-  "repository": "git@github.com:bluesky-social/feed-generator.git",
-  "author": "dholms <dtholmgren@gmail.com>",
+  "repository": "git@github.com:TheeBryanWhite/bluesky-horror-feed.git",
+  "author": "Bryan White <grimbrospod@gmail.com>",
   "license": "MIT",
   "scripts": {
     "publishFeed": "ts-node scripts/publishFeedGen.ts",
